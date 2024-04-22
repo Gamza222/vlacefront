@@ -1,0 +1,3792 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="./assets/index.js"></script>
+    <title>Vlacefront</title>
+  </head>
+  <body class="">
+    <!--header-->
+    <header class="header">
+      <!--circle logo-->
+      <button class="header__logo">
+        <img
+          src="./assets/images/Logo.svg"
+          alt="logo"
+          class="header__logo__pic"
+        />
+      </button>
+      <!--circle logo-->
+
+      <!--right header buttons-->
+      <div class="header__buttons">
+        <!--darkmode btn moon-->
+        <button class="header__buttons__mode-btn-moon">
+          <img
+            src="./assets/images/moon.svg"
+            alt="moon"
+            class="header__buttons__mode-btn__pic"
+          />
+          <p class="header__buttons__mode-btn__text">Dark</p>
+        </button>
+        <!--darkmode btn moon-->
+
+        <!--darkmode btn moon-->
+        <button class="header__buttons__mode-btn-sun">
+          <img
+            src="./assets/images/sun.svg"
+            alt="sun"
+            class="header__buttons__mode-btn__pic"
+          />
+          <p class="header__buttons__mode-btn__text">Light</p>
+        </button>
+        <!--darkmode btn moon-->
+
+        <!--menu btn when small window size-->
+        <button class="header__menu-sm">
+          <img
+            src="./assets/images/Logo.svg"
+            alt="menu"
+            class="header__menu-sm__pic"
+          />
+        </button>
+        <!--menu btn when small window size-->
+
+        <!--admin btn-->
+        <button class="header__buttons__account">
+          <svg
+            class="header__buttons__account__pic"
+            width="12"
+            height="20"
+            viewBox="0 0 12 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2 18L10 10L2 2"
+              stroke-width="3"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <p class="header__buttons__account__text">Admin</p>
+        </button>
+        <!--admin btn-->
+      </div>
+      <!--right header buttons-->
+    </header>
+    <!--header-->
+
+    <!--sidebar-->
+    <sidebar class="sidebar">
+      <!--make a function when we click on "header__menu-sm__pic" class it adds and delets class "sidebar-open" on "sidebar"-->
+      <!--sidebar btn-->
+      <button class="sidebar__button">
+        <svg
+          class="sidebar__button__pic"
+          width="30"
+          height="28"
+          viewBox="0 0 30 28"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.4672 17.32L3.53844 11.068C3.4932 11.0364 3.48221 10.974 3.51389 10.9288L9.70851 2.08192C9.74019 2.03667 9.80254 2.02568 9.84778 2.05736L26.8861 13.9877C26.9314 14.0194 26.9424 14.0818 26.9107 14.127L25.8209 15.6834M12.4672 17.32L20.5768 22.9984C20.622 23.0301 20.6844 23.0191 20.7161 22.9739L21.8059 21.4175M12.4672 17.32L8.19524 23.421C8.17652 23.4477 8.14594 23.4637 8.11331 23.4636L2.0621 23.4628M2.0621 23.4628L1.98052 20.9641M2.0621 23.4628L2.14367 25.9615M21.8059 21.4175L24.591 23.3676C24.6362 23.3993 24.6986 23.3883 24.7303 23.3431L28.6306 17.7728C28.6623 17.7276 28.6513 17.6652 28.606 17.6336L25.8209 15.6834M21.8059 21.4175L25.8209 15.6834"
+            stroke-width="2.2"
+            stroke-linecap="round"
+          />
+        </svg>
+      </button>
+      <!--sidebar btn-->
+    </sidebar>
+    <!--sidebar-->
+
+    <!--content-->
+    <section class="content">
+      <!--layout (left box with items) -->
+      <div class="content__layout">
+        <!--layout top edit bar-->
+        <div class="content__layout__edit">
+          <!--layout edit (left bar)-->
+          <div class="content__layout__edit__left-bar">
+            <!--layout edit (left bar) button 1(pics for buttons is svg's code from images/layout/edit/left-bar in the order from 1-5)-->
+            <button class="content__layout__edit__left-bar__button">
+              <svg
+                width="28"
+                height="22"
+                viewBox="0 0 28 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <mask id="path-1-inside-1_3752_63521" fill="white">
+                  <rect width="28" height="22" rx="1" />
+                </mask>
+                <rect
+                  width="28"
+                  height="22"
+                  rx="1"
+                  stroke-width="2.8"
+                  mask="url(#path-1-inside-1_3752_63521)"
+                />
+              </svg>
+            </button>
+            <!--layout edit (left bar) button 1-->
+
+            <!--layout edit (left bar) button 2-->
+            <button class="content__layout__edit__left-bar__button">
+              <svg
+                width="28"
+                height="22"
+                viewBox="0 0 28 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <mask id="path-1-inside-1_3752_63487" fill="white">
+                  <rect width="13" height="10" rx="1" />
+                </mask>
+                <rect
+                  width="13"
+                  height="10"
+                  rx="1"
+                  stroke-width="2.8"
+                  mask="url(#path-1-inside-1_3752_63487)"
+                />
+                <mask id="path-2-inside-2_3752_63487" fill="white">
+                  <rect y="12" width="13" height="10" rx="1" />
+                </mask>
+                <rect
+                  y="12"
+                  width="13"
+                  height="10"
+                  rx="1"
+                  stroke-width="2.8"
+                  mask="url(#path-2-inside-2_3752_63487)"
+                />
+                <mask id="path-3-inside-3_3752_63487" fill="white">
+                  <rect x="15" width="13" height="10" rx="1" />
+                </mask>
+                <rect
+                  x="15"
+                  width="13"
+                  height="10"
+                  rx="1"
+                  stroke-width="2.8"
+                  mask="url(#path-3-inside-3_3752_63487)"
+                />
+                <mask id="path-4-inside-4_3752_63487" fill="white">
+                  <rect x="15" y="12" width="13" height="10" rx="1" />
+                </mask>
+                <rect
+                  x="15"
+                  y="12"
+                  width="13"
+                  height="10"
+                  rx="1"
+                  stroke-width="2.8"
+                  mask="url(#path-4-inside-4_3752_63487)"
+                />
+              </svg>
+            </button>
+            <!--layout edit (left bar) button 2-->
+
+            <!--layout edit (left bar) button 3-->
+            <button class="content__layout__edit__left-bar__button">
+              <svg
+                width="28"
+                height="22"
+                viewBox="0 0 28 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <mask id="path-1-inside-1_3752_63498" fill="white">
+                  <rect width="18" height="14" rx="1" />
+                </mask>
+                <rect
+                  width="18"
+                  height="14"
+                  rx="1"
+                  stroke-width="2.8"
+                  mask="url(#path-1-inside-1_3752_63498)"
+                />
+                <mask id="path-2-inside-2_3752_63498" fill="white">
+                  <rect x="20" width="8" height="6" rx="1" />
+                </mask>
+                <rect
+                  x="20"
+                  width="8"
+                  height="6"
+                  rx="1"
+                  stroke-width="2.8"
+                  mask="url(#path-2-inside-2_3752_63498)"
+                />
+                <mask id="path-3-inside-3_3752_63498" fill="white">
+                  <rect x="20" y="8" width="8" height="6" rx="1" />
+                </mask>
+                <rect
+                  x="20"
+                  y="8"
+                  width="8"
+                  height="6"
+                  rx="1"
+                  stroke-width="2.8"
+                  mask="url(#path-3-inside-3_3752_63498)"
+                />
+                <mask id="path-4-inside-4_3752_63498" fill="white">
+                  <rect y="16" width="8" height="6" rx="1" />
+                </mask>
+                <rect
+                  y="16"
+                  width="8"
+                  height="6"
+                  rx="1"
+                  stroke-width="2.8"
+                  mask="url(#path-4-inside-4_3752_63498)"
+                />
+                <mask id="path-5-inside-5_3752_63498" fill="white">
+                  <rect x="10" y="16" width="8" height="6" rx="1" />
+                </mask>
+                <rect
+                  x="10"
+                  y="16"
+                  width="8"
+                  height="6"
+                  rx="1"
+                  stroke-width="2.8"
+                  mask="url(#path-5-inside-5_3752_63498)"
+                />
+                <mask id="path-6-inside-6_3752_63498" fill="white">
+                  <rect x="20" y="16" width="8" height="6" rx="1" />
+                </mask>
+                <rect
+                  x="20"
+                  y="16"
+                  width="8"
+                  height="6"
+                  rx="1"
+                  stroke-width="2.8"
+                  mask="url(#path-6-inside-6_3752_63498)"
+                />
+              </svg>
+            </button>
+            <!--layout edit (left bar) button 3-->
+
+            <!--layout edit (left bar) button 4-->
+            <button class="content__layout__edit__left-bar__button">
+              <svg
+                width="28"
+                height="22"
+                viewBox="0 0 28 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <mask id="path-1-inside-1_3752_63465" fill="white">
+                  <rect width="8" height="6" rx="1" />
+                </mask>
+                <rect
+                  width="8"
+                  height="6"
+                  rx="1"
+                  stroke-width="2.8"
+                  mask="url(#path-1-inside-1_3752_63465)"
+                />
+                <mask id="path-2-inside-2_3752_63465" fill="white">
+                  <rect x="10" width="8" height="6" rx="1" />
+                </mask>
+                <rect
+                  x="10"
+                  width="8"
+                  height="6"
+                  rx="1"
+                  stroke-width="2.8"
+                  mask="url(#path-2-inside-2_3752_63465)"
+                />
+                <mask id="path-3-inside-3_3752_63465" fill="white">
+                  <rect x="20" width="8" height="6" rx="1" />
+                </mask>
+                <rect
+                  x="20"
+                  width="8"
+                  height="6"
+                  rx="1"
+                  stroke-width="2.8"
+                  mask="url(#path-3-inside-3_3752_63465)"
+                />
+                <mask id="path-4-inside-4_3752_63465" fill="white">
+                  <rect y="8" width="8" height="6" rx="1" />
+                </mask>
+                <rect
+                  y="8"
+                  width="8"
+                  height="6"
+                  rx="1"
+                  stroke-width="2.8"
+                  mask="url(#path-4-inside-4_3752_63465)"
+                />
+                <mask id="path-5-inside-5_3752_63465" fill="white">
+                  <rect x="10" y="8" width="8" height="6" rx="1" />
+                </mask>
+                <rect
+                  x="10"
+                  y="8"
+                  width="8"
+                  height="6"
+                  rx="1"
+                  stroke-width="2.8"
+                  mask="url(#path-5-inside-5_3752_63465)"
+                />
+                <mask id="path-6-inside-6_3752_63465" fill="white">
+                  <rect x="20" y="8" width="8" height="6" rx="1" />
+                </mask>
+                <rect
+                  x="20"
+                  y="8"
+                  width="8"
+                  height="6"
+                  rx="1"
+                  stroke-width="2.8"
+                  mask="url(#path-6-inside-6_3752_63465)"
+                />
+                <mask id="path-7-inside-7_3752_63465" fill="white">
+                  <rect y="16" width="8" height="6" rx="1" />
+                </mask>
+                <rect
+                  y="16"
+                  width="8"
+                  height="6"
+                  rx="1"
+                  stroke-width="2.8"
+                  mask="url(#path-7-inside-7_3752_63465)"
+                />
+                <mask id="path-8-inside-8_3752_63465" fill="white">
+                  <rect x="10" y="16" width="8" height="6" rx="1" />
+                </mask>
+                <rect
+                  x="10"
+                  y="16"
+                  width="8"
+                  height="6"
+                  rx="1"
+                  stroke-width="2.8"
+                  mask="url(#path-8-inside-8_3752_63465)"
+                />
+                <mask id="path-9-inside-9_3752_63465" fill="white">
+                  <rect x="20" y="16" width="8" height="6" rx="1" />
+                </mask>
+                <rect
+                  x="20"
+                  y="16"
+                  width="8"
+                  height="6"
+                  rx="1"
+                  stroke-width="2.8"
+                  mask="url(#path-9-inside-9_3752_63465)"
+                />
+              </svg>
+            </button>
+            <!--layout edit (left bar) button 4-->
+
+            <!--layout edit (left bar) button 5-->
+            <button class="content__layout__edit__left-bar__button-big">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect x="8" width="6" height="6" rx="1" />
+                <rect x="8" y="8" width="6" height="6" rx="1" />
+                <rect width="6" height="6" rx="1" />
+                <rect y="8" width="6" height="6" rx="1" />
+              </svg>
+              <p class="content__layout__edit__left-bar__button-big__text">
+                Edit Layout
+              </p>
+            </button>
+            <!--layout edit (left bar) button 5-->
+          </div>
+          <!--layout edit (left bar)-->
+
+          <!--edit layout window (opens on click edit-layout-button 5)-->
+          <div class="content__layout__edit__edit-layout-window">
+            <div class="content__layout__edit__edit-layout-window__content">
+              <!--edit layout window title !-->
+              <h4 class="edit-layout-window__content__title">Edit Layout</h4>
+              <!--edit layout window title !-->
+
+              <!--edit layout window items (list of cameras) !-->
+              <div class="edit-layout-window__content__items">
+                <!--edit layout window cameras list title!-->
+                <p class="edit-layout-window__content__items__title">
+                  ACTIVE CAMERAS
+                </p>
+                <!--edit layout window cameras list title!-->
+
+                <!--edit layout window cameras container for list of cameras !-->
+                <div class="edit-layout-window__content__items__container">
+                  <!--edit layout window cameras-list item !-->
+                  <div class="edit-layout-window__content__item">
+                    <!--edit layout window cameras-list item left-part (checkbox and name)!-->
+                    <div class="edit-layout-window__content__item__left-part">
+                      <!--edit layout window cameras-list item left-part checkbox (pic is svg from) assets/images/check.svg!-->
+                      <button
+                        class="edit-layout-window__content__item__checkbox"
+                      >
+                        <svg
+                          width="14"
+                          height="10"
+                          viewBox="0 0 14 10"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M1 3.66667L5.8 9L13 1"
+                            stroke="white"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </button>
+                      <!--edit layout window cameras-list item left-part checkbox !-->
+
+                      <!--edit layout window cameras-list item left-part name !-->
+                      <p class="edit-layout-window__content__item__name">
+                        Hall Camera 1
+                      </p>
+                      <!--edit layout window cameras-list item left-part name !-->
+                    </div>
+                    <!--edit layout window cameras-list item left-part (checkbox and name)!-->
+
+                    <!--edit layout window cameras-list item right-part menu-btn (pic is svg from assest/images/layout/edit/left-bar/button5) !-->
+                    <button class="edit-layout-window__content__item__menu-btn">
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect x="8" width="6" height="6" rx="1" />
+                        <rect x="8" y="8" width="6" height="6" rx="1" />
+                        <rect width="6" height="6" rx="1" />
+                        <rect y="8" width="6" height="6" rx="1" />
+                      </svg>
+                    </button>
+                    <!--edit layout window cameras-list item right-part menu-btn (pic is svg from assest/images/layout/edit/left-bar/button5) !-->
+                  </div>
+                  <!--edit layout window cameras-list item !-->
+                  <!--edit layout window cameras-list item !-->
+                  <div class="edit-layout-window__content__item">
+                    <!--edit layout window cameras-list item left-part (checkbox and name)!-->
+                    <div class="edit-layout-window__content__item__left-part">
+                      <!--edit layout window cameras-list item left-part checkbox (pic is svg from) assets/images/check.svg!-->
+                      <button
+                        class="edit-layout-window__content__item__checkbox"
+                      >
+                        <svg
+                          width="14"
+                          height="10"
+                          viewBox="0 0 14 10"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M1 3.66667L5.8 9L13 1"
+                            stroke="white"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </button>
+                      <!--edit layout window cameras-list item left-part checkbox !-->
+
+                      <!--edit layout window cameras-list item left-part name !-->
+                      <p class="edit-layout-window__content__item__name">
+                        Hall Camera 1
+                      </p>
+                      <!--edit layout window cameras-list item left-part name !-->
+                    </div>
+                    <!--edit layout window cameras-list item left-part (checkbox and name)!-->
+
+                    <!--edit layout window cameras-list item right-part menu-btn (pic is svg from assest/images/layout/edit/left-bar/button5) !-->
+                    <button class="edit-layout-window__content__item__menu-btn">
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect x="8" width="6" height="6" rx="1" />
+                        <rect x="8" y="8" width="6" height="6" rx="1" />
+                        <rect width="6" height="6" rx="1" />
+                        <rect y="8" width="6" height="6" rx="1" />
+                      </svg>
+                    </button>
+                    <!--edit layout window cameras-list item right-part menu-btn (pic is svg from assest/images/layout/edit/left-bar/button5) !-->
+                  </div>
+                  <!--edit layout window cameras-list item !-->
+                  <!--edit layout window cameras-list item !-->
+                  <div
+                    class="edit-layout-window__content__item edit-layout-window__content__item-selected"
+                  >
+                    <!--edit layout window cameras-list item left-part (checkbox and name)!-->
+                    <div class="edit-layout-window__content__item__left-part">
+                      <!--edit layout window cameras-list item left-part checkbox (pic is svg from) assets/images/check.svg!-->
+                      <button
+                        class="edit-layout-window__content__item__checkbox"
+                      >
+                        <svg
+                          width="14"
+                          height="10"
+                          viewBox="0 0 14 10"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M1 3.66667L5.8 9L13 1"
+                            stroke="white"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </button>
+                      <!--edit layout window cameras-list item left-part checkbox !-->
+
+                      <!--edit layout window cameras-list item left-part name !-->
+                      <p class="edit-layout-window__content__item__name">
+                        Hall Camera 1
+                      </p>
+                      <!--edit layout window cameras-list item left-part name !-->
+                    </div>
+                    <!--edit layout window cameras-list item left-part (checkbox and name)!-->
+
+                    <!--edit layout window cameras-list item right-part menu-btn (pic is svg from assest/images/layout/edit/left-bar/button5) !-->
+                    <button class="edit-layout-window__content__item__menu-btn">
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect x="8" width="6" height="6" rx="1" />
+                        <rect x="8" y="8" width="6" height="6" rx="1" />
+                        <rect width="6" height="6" rx="1" />
+                        <rect y="8" width="6" height="6" rx="1" />
+                      </svg>
+                    </button>
+                    <!--edit layout window cameras-list item right-part menu-btn (pic is svg from assest/images/layout/edit/left-bar/button5) !-->
+                  </div>
+                  <!--edit layout window cameras-list item !-->
+                  <!--edit layout window cameras-list item !-->
+                  <div
+                    class="edit-layout-window__content__item edit-layout-window__content__item-selected"
+                  >
+                    <!--edit layout window cameras-list item left-part (checkbox and name)!-->
+                    <div class="edit-layout-window__content__item__left-part">
+                      <!--edit layout window cameras-list item left-part checkbox (pic is svg from) assets/images/check.svg!-->
+                      <button
+                        class="edit-layout-window__content__item__checkbox"
+                      >
+                        <svg
+                          width="14"
+                          height="10"
+                          viewBox="0 0 14 10"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M1 3.66667L5.8 9L13 1"
+                            stroke="white"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </button>
+                      <!--edit layout window cameras-list item left-part checkbox !-->
+
+                      <!--edit layout window cameras-list item left-part name !-->
+                      <p class="edit-layout-window__content__item__name">
+                        Hall Camera 1
+                      </p>
+                      <!--edit layout window cameras-list item left-part name !-->
+                    </div>
+                    <!--edit layout window cameras-list item left-part (checkbox and name)!-->
+
+                    <!--edit layout window cameras-list item right-part menu-btn (pic is svg from assest/images/layout/edit/left-bar/button5) !-->
+                    <button class="edit-layout-window__content__item__menu-btn">
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect x="8" width="6" height="6" rx="1" />
+                        <rect x="8" y="8" width="6" height="6" rx="1" />
+                        <rect width="6" height="6" rx="1" />
+                        <rect y="8" width="6" height="6" rx="1" />
+                      </svg>
+                    </button>
+                    <!--edit layout window cameras-list item right-part menu-btn (pic is svg from assest/images/layout/edit/left-bar/button5) !-->
+                  </div>
+                  <!--edit layout window cameras-list item !-->
+                  <!--edit layout window cameras-list item !-->
+                  <div
+                    class="edit-layout-window__content__item edit-layout-window__content__item-selected"
+                  >
+                    <!--edit layout window cameras-list item left-part (checkbox and name)!-->
+                    <div class="edit-layout-window__content__item__left-part">
+                      <!--edit layout window cameras-list item left-part checkbox (pic is svg from) assets/images/check.svg!-->
+                      <button
+                        class="edit-layout-window__content__item__checkbox"
+                      >
+                        <svg
+                          width="14"
+                          height="10"
+                          viewBox="0 0 14 10"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M1 3.66667L5.8 9L13 1"
+                            stroke="white"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </button>
+                      <!--edit layout window cameras-list item left-part checkbox !-->
+
+                      <!--edit layout window cameras-list item left-part name !-->
+                      <p class="edit-layout-window__content__item__name">
+                        Hall Camera 1
+                      </p>
+                      <!--edit layout window cameras-list item left-part name !-->
+                    </div>
+                    <!--edit layout window cameras-list item left-part (checkbox and name)!-->
+
+                    <!--edit layout window cameras-list item right-part menu-btn (pic is svg from assest/images/layout/edit/left-bar/button5) !-->
+                    <button class="edit-layout-window__content__item__menu-btn">
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect x="8" width="6" height="6" rx="1" />
+                        <rect x="8" y="8" width="6" height="6" rx="1" />
+                        <rect width="6" height="6" rx="1" />
+                        <rect y="8" width="6" height="6" rx="1" />
+                      </svg>
+                    </button>
+                    <!--edit layout window cameras-list item right-part menu-btn (pic is svg from assest/images/layout/edit/left-bar/button5) !-->
+                  </div>
+                  <!--edit layout window cameras-list item !-->
+                </div>
+                <!--edit layout window cameras container for list of cameras !-->
+              </div>
+              <!--edit layout window items (list of cameras) !-->
+              <div class="edit-layout-window__content__btns">
+                <buttun class="edit-layout-window__content__btns__btn-left"
+                  >Apply</buttun
+                >
+                <buttun class="edit-layout-window__content__btns__btn-right"
+                  >Cancel</buttun
+                >
+              </div>
+            </div>
+          </div>
+          <!--edit layout window (opens on click edit-layout-button 5)-->
+
+          <!--layout select-page (right bar)-->
+          <div class="content__layout__edit__right-bar">
+            <!--layout select-page (right bar) arrow-left-button (svg code from assest/images/right-bar)-->
+            <button class="content__layout__edit__right-bar__button-left">
+              <svg
+                width="9"
+                height="16"
+                viewBox="0 0 9 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.792893 7.29289C0.402369 7.68342 0.402369 8.31658 0.792893 8.70711L7.15685 15.0711C7.54738 15.4616 8.18054 15.4616 8.57107 15.0711C8.96159 14.6805 8.96159 14.0474 8.57107 13.6569L2.91421 8L8.57107 2.34315C8.96159 1.95262 8.96159 1.31946 8.57107 0.928933C8.18054 0.538408 7.54738 0.538408 7.15685 0.928933L0.792893 7.29289ZM2.5 7L1.5 7L1.5 9L2.5 9L2.5 7Z"
+                />
+              </svg>
+            </button>
+            <!--layout select-page (right bar) arrow-left-button-->
+
+            <!--layout select-page (right bar) table for current page-->
+            <button class="content__layout__edit__right-bar__page-table">
+              <p
+                class="content__layout__edit__right-bar__page-table__text-curr-page"
+              >
+                1
+              </p>
+              <p
+                class="content__layout__edit__right-bar__page-table__text-descr"
+              >
+                of
+              </p>
+              <p
+                class="content__layout__edit__right-bar__page-table__text-amount-pages"
+              >
+                23
+              </p>
+            </button>
+            <!--layout select-page (right bar) table for current page-->
+
+            <!--layout select-page (right bar) arrow-left-button (svg code from assest/images/right-bar)-->
+            <button class="content__layout__edit__right-bar__button-right">
+              <svg
+                width="9"
+                height="16"
+                viewBox="0 0 9 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.792893 7.29289C0.402369 7.68342 0.402369 8.31658 0.792893 8.70711L7.15685 15.0711C7.54738 15.4616 8.18054 15.4616 8.57107 15.0711C8.96159 14.6805 8.96159 14.0474 8.57107 13.6569L2.91421 8L8.57107 2.34315C8.96159 1.95262 8.96159 1.31946 8.57107 0.928933C8.18054 0.538408 7.54738 0.538408 7.15685 0.928933L0.792893 7.29289ZM2.5 7L1.5 7L1.5 9L2.5 9L2.5 7Z"
+                />
+              </svg>
+            </button>
+            <!--layout select-page (right bar) arrow-left-button-->
+          </div>
+          <!--layout select-page (right bar)-->
+        </div>
+        <!--layout top edit bar-->
+
+        <!--layout items window-->
+        <div class="content__layout__items">
+          <!--layout items window container -->
+          <div class="content__layout__item-container content__layout__item-container-1cam">
+            <!--layout items window - item -->
+            <div class="content__layout__items__item">
+              <!--item top-interactions bar-->
+              <div class="content__layout__items__item__top-bar">
+                <!--title and close btn container-->
+                <div class="content__layout__items__item__top-bar__left-btns">
+                  <!--title  -->
+                  <p
+                    class="content__layout__items__item__top-bar__left-btns__text"
+                  >
+                    Hall camera 1
+                  </p>
+                  <!--title-->
+
+                  <!--close btn (pic is svg from assets/images/layout/right-bar/close-btn)-->
+                  <button
+                    class="content__layout__items__item__top-bar__left-btns__close-btn"
+                  >
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 7L7 1M1 1L7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <!--close btn-->
+                </div>
+                <!--title and close btn container-->
+
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+                <button
+                  class="content__layout__items__item__top-bar__right-btn"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect x="8" width="6" height="6" rx="1" />
+                    <rect x="8" y="8" width="6" height="6" rx="1" />
+                    <rect width="6" height="6" rx="1" />
+                    <rect y="8" width="6" height="6" rx="1" />
+                  </svg>
+                </button>
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+              </div>
+              <!--item top-interactions bar-->
+
+              <!--item picture container-->
+              <img
+                src="./assets/images/layout/items/item-pic.jpg"
+                alt=""
+                class="content__layout__items__item__content__pic"
+              />
+              <!--item picture container-->
+            </div>
+            <!--layout items window - item -->
+            <!--layout items window - item -->
+            <div class="content__layout__items__item">
+              <!--item top-interactions bar-->
+              <div class="content__layout__items__item__top-bar">
+                <!--title and close btn container-->
+                <div class="content__layout__items__item__top-bar__left-btns">
+                  <!--title  -->
+                  <p
+                    class="content__layout__items__item__top-bar__left-btns__text"
+                  >
+                    Hall camera 1
+                  </p>
+                  <!--title-->
+
+                  <!--close btn (pic is svg from assets/images/layout/right-bar/close-btn)-->
+                  <button
+                    class="content__layout__items__item__top-bar__left-btns__close-btn"
+                  >
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 7L7 1M1 1L7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <!--close btn-->
+                </div>
+                <!--title and close btn container-->
+
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+                <button
+                  class="content__layout__items__item__top-bar__right-btn"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect x="8" width="6" height="6" rx="1" />
+                    <rect x="8" y="8" width="6" height="6" rx="1" />
+                    <rect width="6" height="6" rx="1" />
+                    <rect y="8" width="6" height="6" rx="1" />
+                  </svg>
+                </button>
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+              </div>
+              <!--item top-interactions bar-->
+
+              <!--item picture container-->
+              <img
+                src="./assets/images/layout/items/item-pic.jpg"
+                alt=""
+                class="content__layout__items__item__content__pic"
+              />
+              <!--item picture container-->
+            </div>
+            <!--layout items window - item -->
+            <!--layout items window - item -->
+            <div class="content__layout__items__item">
+              <!--item top-interactions bar-->
+              <div class="content__layout__items__item__top-bar">
+                <!--title and close btn container-->
+                <div class="content__layout__items__item__top-bar__left-btns">
+                  <!--title  -->
+                  <p
+                    class="content__layout__items__item__top-bar__left-btns__text"
+                  >
+                    Hall camera 1
+                  </p>
+                  <!--title-->
+
+                  <!--close btn (pic is svg from assets/images/layout/right-bar/close-btn)-->
+                  <button
+                    class="content__layout__items__item__top-bar__left-btns__close-btn"
+                  >
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 7L7 1M1 1L7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <!--close btn-->
+                </div>
+                <!--title and close btn container-->
+
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+                <button
+                  class="content__layout__items__item__top-bar__right-btn"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect x="8" width="6" height="6" rx="1" />
+                    <rect x="8" y="8" width="6" height="6" rx="1" />
+                    <rect width="6" height="6" rx="1" />
+                    <rect y="8" width="6" height="6" rx="1" />
+                  </svg>
+                </button>
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+              </div>
+              <!--item top-interactions bar-->
+
+              <!--item picture container-->
+              <img
+                src="./assets/images/layout/items/item-pic.jpg"
+                alt=""
+                class="content__layout__items__item__content__pic"
+              />
+              <!--item picture container-->
+            </div>
+            <!--layout items window - item -->
+            <!--layout items window - item -->
+            <div class="content__layout__items__item">
+              <!--item top-interactions bar-->
+              <div class="content__layout__items__item__top-bar">
+                <!--title and close btn container-->
+                <div class="content__layout__items__item__top-bar__left-btns">
+                  <!--title  -->
+                  <p
+                    class="content__layout__items__item__top-bar__left-btns__text"
+                  >
+                    Hall camera 1
+                  </p>
+                  <!--title-->
+
+                  <!--close btn (pic is svg from assets/images/layout/right-bar/close-btn)-->
+                  <button
+                    class="content__layout__items__item__top-bar__left-btns__close-btn"
+                  >
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 7L7 1M1 1L7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <!--close btn-->
+                </div>
+                <!--title and close btn container-->
+
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+                <button
+                  class="content__layout__items__item__top-bar__right-btn"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect x="8" width="6" height="6" rx="1" />
+                    <rect x="8" y="8" width="6" height="6" rx="1" />
+                    <rect width="6" height="6" rx="1" />
+                    <rect y="8" width="6" height="6" rx="1" />
+                  </svg>
+                </button>
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+              </div>
+              <!--item top-interactions bar-->
+
+              <!--item picture container-->
+              <img
+                src="./assets/images/layout/items/item-pic.jpg"
+                alt=""
+                class="content__layout__items__item__content__pic"
+              />
+              <!--item picture container-->
+            </div>
+            <!--layout items window - item -->
+            <!--layout items window - item -->
+            <div class="content__layout__items__item">
+              <!--item top-interactions bar-->
+              <div class="content__layout__items__item__top-bar">
+                <!--title and close btn container-->
+                <div class="content__layout__items__item__top-bar__left-btns">
+                  <!--title  -->
+                  <p
+                    class="content__layout__items__item__top-bar__left-btns__text"
+                  >
+                    Hall camera 1
+                  </p>
+                  <!--title-->
+
+                  <!--close btn (pic is svg from assets/images/layout/right-bar/close-btn)-->
+                  <button
+                    class="content__layout__items__item__top-bar__left-btns__close-btn"
+                  >
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 7L7 1M1 1L7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <!--close btn-->
+                </div>
+                <!--title and close btn container-->
+
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+                <button
+                  class="content__layout__items__item__top-bar__right-btn"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect x="8" width="6" height="6" rx="1" />
+                    <rect x="8" y="8" width="6" height="6" rx="1" />
+                    <rect width="6" height="6" rx="1" />
+                    <rect y="8" width="6" height="6" rx="1" />
+                  </svg>
+                </button>
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+              </div>
+              <!--item top-interactions bar-->
+
+              <!--item picture container-->
+              <img
+                src="./assets/images/layout/items/item-pic.jpg"
+                alt=""
+                class="content__layout__items__item__content__pic"
+              />
+              <!--item picture container-->
+            </div>
+            <!--layout items window - item -->
+            <!--layout items window - item -->
+            <div class="content__layout__items__item">
+              <!--item top-interactions bar-->
+              <div class="content__layout__items__item__top-bar">
+                <!--title and close btn container-->
+                <div class="content__layout__items__item__top-bar__left-btns">
+                  <!--title  -->
+                  <p
+                    class="content__layout__items__item__top-bar__left-btns__text"
+                  >
+                    Hall camera 1
+                  </p>
+                  <!--title-->
+
+                  <!--close btn (pic is svg from assets/images/layout/right-bar/close-btn)-->
+                  <button
+                    class="content__layout__items__item__top-bar__left-btns__close-btn"
+                  >
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 7L7 1M1 1L7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <!--close btn-->
+                </div>
+                <!--title and close btn container-->
+
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+                <button
+                  class="content__layout__items__item__top-bar__right-btn"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect x="8" width="6" height="6" rx="1" />
+                    <rect x="8" y="8" width="6" height="6" rx="1" />
+                    <rect width="6" height="6" rx="1" />
+                    <rect y="8" width="6" height="6" rx="1" />
+                  </svg>
+                </button>
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+              </div>
+              <!--item top-interactions bar-->
+
+              <!--item picture container-->
+              <img
+                src="./assets/images/layout/items/item-pic.jpg"
+                alt=""
+                class="content__layout__items__item__content__pic"
+              />
+              <!--item picture container-->
+            </div>
+            <!--layout items window - item -->
+            <!--layout items window - item -->
+            <div class="content__layout__items__item">
+              <!--item top-interactions bar-->
+              <div class="content__layout__items__item__top-bar">
+                <!--title and close btn container-->
+                <div class="content__layout__items__item__top-bar__left-btns">
+                  <!--title  -->
+                  <p
+                    class="content__layout__items__item__top-bar__left-btns__text"
+                  >
+                    Hall camera 1
+                  </p>
+                  <!--title-->
+
+                  <!--close btn (pic is svg from assets/images/layout/right-bar/close-btn)-->
+                  <button
+                    class="content__layout__items__item__top-bar__left-btns__close-btn"
+                  >
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 7L7 1M1 1L7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <!--close btn-->
+                </div>
+                <!--title and close btn container-->
+
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+                <button
+                  class="content__layout__items__item__top-bar__right-btn"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect x="8" width="6" height="6" rx="1" />
+                    <rect x="8" y="8" width="6" height="6" rx="1" />
+                    <rect width="6" height="6" rx="1" />
+                    <rect y="8" width="6" height="6" rx="1" />
+                  </svg>
+                </button>
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+              </div>
+              <!--item top-interactions bar-->
+
+              <!--item picture container-->
+              <img
+                src="./assets/images/layout/items/item-pic.jpg"
+                alt=""
+                class="content__layout__items__item__content__pic"
+              />
+              <!--item picture container-->
+            </div>
+            <!--layout items window - item -->
+            <!--layout items window - item -->
+            <div class="content__layout__items__item">
+              <!--item top-interactions bar-->
+              <div class="content__layout__items__item__top-bar">
+                <!--title and close btn container-->
+                <div class="content__layout__items__item__top-bar__left-btns">
+                  <!--title  -->
+                  <p
+                    class="content__layout__items__item__top-bar__left-btns__text"
+                  >
+                    Hall camera 1
+                  </p>
+                  <!--title-->
+
+                  <!--close btn (pic is svg from assets/images/layout/right-bar/close-btn)-->
+                  <button
+                    class="content__layout__items__item__top-bar__left-btns__close-btn"
+                  >
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 7L7 1M1 1L7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <!--close btn-->
+                </div>
+                <!--title and close btn container-->
+
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+                <button
+                  class="content__layout__items__item__top-bar__right-btn"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect x="8" width="6" height="6" rx="1" />
+                    <rect x="8" y="8" width="6" height="6" rx="1" />
+                    <rect width="6" height="6" rx="1" />
+                    <rect y="8" width="6" height="6" rx="1" />
+                  </svg>
+                </button>
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+              </div>
+              <!--item top-interactions bar-->
+
+              <!--item picture container-->
+              <img
+                src="./assets/images/layout/items/item-pic.jpg"
+                alt=""
+                class="content__layout__items__item__content__pic"
+              />
+              <!--item picture container-->
+            </div>
+            <!--layout items window - item -->
+            <!--layout items window - item -->
+            <div class="content__layout__items__item">
+              <!--item top-interactions bar-->
+              <div class="content__layout__items__item__top-bar">
+                <!--title and close btn container-->
+                <div class="content__layout__items__item__top-bar__left-btns">
+                  <!--title  -->
+                  <p
+                    class="content__layout__items__item__top-bar__left-btns__text"
+                  >
+                    Hall camera 1
+                  </p>
+                  <!--title-->
+
+                  <!--close btn (pic is svg from assets/images/layout/right-bar/close-btn)-->
+                  <button
+                    class="content__layout__items__item__top-bar__left-btns__close-btn"
+                  >
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 7L7 1M1 1L7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <!--close btn-->
+                </div>
+                <!--title and close btn container-->
+
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+                <button
+                  class="content__layout__items__item__top-bar__right-btn"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect x="8" width="6" height="6" rx="1" />
+                    <rect x="8" y="8" width="6" height="6" rx="1" />
+                    <rect width="6" height="6" rx="1" />
+                    <rect y="8" width="6" height="6" rx="1" />
+                  </svg>
+                </button>
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+              </div>
+              <!--item top-interactions bar-->
+
+              <!--item picture container-->
+              <img
+                src="./assets/images/layout/items/item-pic.jpg"
+                alt=""
+                class="content__layout__items__item__content__pic"
+              />
+              <!--item picture container-->
+            </div>
+            <!--layout items window - item -->
+            <!--layout items window - item -->
+            <div class="content__layout__items__item">
+              <!--item top-interactions bar-->
+              <div class="content__layout__items__item__top-bar">
+                <!--title and close btn container-->
+                <div class="content__layout__items__item__top-bar__left-btns">
+                  <!--title  -->
+                  <p
+                    class="content__layout__items__item__top-bar__left-btns__text"
+                  >
+                    Hall camera 1
+                  </p>
+                  <!--title-->
+
+                  <!--close btn (pic is svg from assets/images/layout/right-bar/close-btn)-->
+                  <button
+                    class="content__layout__items__item__top-bar__left-btns__close-btn"
+                  >
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 7L7 1M1 1L7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <!--close btn-->
+                </div>
+                <!--title and close btn container-->
+
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+                <button
+                  class="content__layout__items__item__top-bar__right-btn"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect x="8" width="6" height="6" rx="1" />
+                    <rect x="8" y="8" width="6" height="6" rx="1" />
+                    <rect width="6" height="6" rx="1" />
+                    <rect y="8" width="6" height="6" rx="1" />
+                  </svg>
+                </button>
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+              </div>
+              <!--item top-interactions bar-->
+
+              <!--item picture container-->
+              <img
+                src="./assets/images/layout/items/item-pic.jpg"
+                alt=""
+                class="content__layout__items__item__content__pic"
+              />
+              <!--item picture container-->
+            </div>
+            <!--layout items window - item -->
+            <!--layout items window - item -->
+            <div class="content__layout__items__item">
+              <!--item top-interactions bar-->
+              <div class="content__layout__items__item__top-bar">
+                <!--title and close btn container-->
+                <div class="content__layout__items__item__top-bar__left-btns">
+                  <!--title  -->
+                  <p
+                    class="content__layout__items__item__top-bar__left-btns__text"
+                  >
+                    Hall camera 1
+                  </p>
+                  <!--title-->
+
+                  <!--close btn (pic is svg from assets/images/layout/right-bar/close-btn)-->
+                  <button
+                    class="content__layout__items__item__top-bar__left-btns__close-btn"
+                  >
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 7L7 1M1 1L7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <!--close btn-->
+                </div>
+                <!--title and close btn container-->
+
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+                <button
+                  class="content__layout__items__item__top-bar__right-btn"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect x="8" width="6" height="6" rx="1" />
+                    <rect x="8" y="8" width="6" height="6" rx="1" />
+                    <rect width="6" height="6" rx="1" />
+                    <rect y="8" width="6" height="6" rx="1" />
+                  </svg>
+                </button>
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+              </div>
+              <!--item top-interactions bar-->
+
+              <!--item picture container-->
+              <img
+                src="./assets/images/layout/items/item-pic.jpg"
+                alt=""
+                class="content__layout__items__item__content__pic"
+              />
+              <!--item picture container-->
+            </div>
+            <!--layout items window - item -->
+            <!--layout items window - item -->
+            <div class="content__layout__items__item">
+              <!--item top-interactions bar-->
+              <div class="content__layout__items__item__top-bar">
+                <!--title and close btn container-->
+                <div class="content__layout__items__item__top-bar__left-btns">
+                  <!--title  -->
+                  <p
+                    class="content__layout__items__item__top-bar__left-btns__text"
+                  >
+                    Hall camera 1
+                  </p>
+                  <!--title-->
+
+                  <!--close btn (pic is svg from assets/images/layout/right-bar/close-btn)-->
+                  <button
+                    class="content__layout__items__item__top-bar__left-btns__close-btn"
+                  >
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 7L7 1M1 1L7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <!--close btn-->
+                </div>
+                <!--title and close btn container-->
+
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+                <button
+                  class="content__layout__items__item__top-bar__right-btn"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect x="8" width="6" height="6" rx="1" />
+                    <rect x="8" y="8" width="6" height="6" rx="1" />
+                    <rect width="6" height="6" rx="1" />
+                    <rect y="8" width="6" height="6" rx="1" />
+                  </svg>
+                </button>
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+              </div>
+              <!--item top-interactions bar-->
+
+              <!--item picture container-->
+              <img
+                src="./assets/images/layout/items/item-pic.jpg"
+                alt=""
+                class="content__layout__items__item__content__pic"
+              />
+              <!--item picture container-->
+            </div>
+            <!--layout items window - item -->
+            <!--layout items window - item -->
+            <div class="content__layout__items__item">
+              <!--item top-interactions bar-->
+              <div class="content__layout__items__item__top-bar">
+                <!--title and close btn container-->
+                <div class="content__layout__items__item__top-bar__left-btns">
+                  <!--title  -->
+                  <p
+                    class="content__layout__items__item__top-bar__left-btns__text"
+                  >
+                    Hall camera 1
+                  </p>
+                  <!--title-->
+
+                  <!--close btn (pic is svg from assets/images/layout/right-bar/close-btn)-->
+                  <button
+                    class="content__layout__items__item__top-bar__left-btns__close-btn"
+                  >
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 7L7 1M1 1L7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <!--close btn-->
+                </div>
+                <!--title and close btn container-->
+
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+                <button
+                  class="content__layout__items__item__top-bar__right-btn"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect x="8" width="6" height="6" rx="1" />
+                    <rect x="8" y="8" width="6" height="6" rx="1" />
+                    <rect width="6" height="6" rx="1" />
+                    <rect y="8" width="6" height="6" rx="1" />
+                  </svg>
+                </button>
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+              </div>
+              <!--item top-interactions bar-->
+
+              <!--item picture container-->
+              <img
+                src="./assets/images/layout/items/item-pic.jpg"
+                alt=""
+                class="content__layout__items__item__content__pic"
+              />
+              <!--item picture container-->
+            </div>
+            <!--layout items window - item -->
+            <!--layout items window - item -->
+            <div class="content__layout__items__item">
+              <!--item top-interactions bar-->
+              <div class="content__layout__items__item__top-bar">
+                <!--title and close btn container-->
+                <div class="content__layout__items__item__top-bar__left-btns">
+                  <!--title  -->
+                  <p
+                    class="content__layout__items__item__top-bar__left-btns__text"
+                  >
+                    Hall camera 1
+                  </p>
+                  <!--title-->
+
+                  <!--close btn (pic is svg from assets/images/layout/right-bar/close-btn)-->
+                  <button
+                    class="content__layout__items__item__top-bar__left-btns__close-btn"
+                  >
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 7L7 1M1 1L7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <!--close btn-->
+                </div>
+                <!--title and close btn container-->
+
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+                <button
+                  class="content__layout__items__item__top-bar__right-btn"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect x="8" width="6" height="6" rx="1" />
+                    <rect x="8" y="8" width="6" height="6" rx="1" />
+                    <rect width="6" height="6" rx="1" />
+                    <rect y="8" width="6" height="6" rx="1" />
+                  </svg>
+                </button>
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+              </div>
+              <!--item top-interactions bar-->
+
+              <!--item picture container-->
+              <img
+                src="./assets/images/layout/items/item-pic.jpg"
+                alt=""
+                class="content__layout__items__item__content__pic"
+              />
+              <!--item picture container-->
+            </div>
+            <!--layout items window - item -->
+            <!--layout items window - item -->
+            <div class="content__layout__items__item">
+              <!--item top-interactions bar-->
+              <div class="content__layout__items__item__top-bar">
+                <!--title and close btn container-->
+                <div class="content__layout__items__item__top-bar__left-btns">
+                  <!--title  -->
+                  <p
+                    class="content__layout__items__item__top-bar__left-btns__text"
+                  >
+                    Hall camera 1
+                  </p>
+                  <!--title-->
+
+                  <!--close btn (pic is svg from assets/images/layout/right-bar/close-btn)-->
+                  <button
+                    class="content__layout__items__item__top-bar__left-btns__close-btn"
+                  >
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 7L7 1M1 1L7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <!--close btn-->
+                </div>
+                <!--title and close btn container-->
+
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+                <button
+                  class="content__layout__items__item__top-bar__right-btn"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect x="8" width="6" height="6" rx="1" />
+                    <rect x="8" y="8" width="6" height="6" rx="1" />
+                    <rect width="6" height="6" rx="1" />
+                    <rect y="8" width="6" height="6" rx="1" />
+                  </svg>
+                </button>
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+              </div>
+              <!--item top-interactions bar-->
+
+              <!--item picture container-->
+              <img
+                src="./assets/images/layout/items/item-pic.jpg"
+                alt=""
+                class="content__layout__items__item__content__pic"
+              />
+              <!--item picture container-->
+            </div>
+            <!--layout items window - item -->
+            <!--layout items window - item -->
+            <div class="content__layout__items__item">
+              <!--item top-interactions bar-->
+              <div class="content__layout__items__item__top-bar">
+                <!--title and close btn container-->
+                <div class="content__layout__items__item__top-bar__left-btns">
+                  <!--title  -->
+                  <p
+                    class="content__layout__items__item__top-bar__left-btns__text"
+                  >
+                    Hall camera 1
+                  </p>
+                  <!--title-->
+
+                  <!--close btn (pic is svg from assets/images/layout/right-bar/close-btn)-->
+                  <button
+                    class="content__layout__items__item__top-bar__left-btns__close-btn"
+                  >
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 7L7 1M1 1L7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <!--close btn-->
+                </div>
+                <!--title and close btn container-->
+
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+                <button
+                  class="content__layout__items__item__top-bar__right-btn"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect x="8" width="6" height="6" rx="1" />
+                    <rect x="8" y="8" width="6" height="6" rx="1" />
+                    <rect width="6" height="6" rx="1" />
+                    <rect y="8" width="6" height="6" rx="1" />
+                  </svg>
+                </button>
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+              </div>
+              <!--item top-interactions bar-->
+
+              <!--item picture container-->
+              <img
+                src="./assets/images/layout/items/item-pic.jpg"
+                alt=""
+                class="content__layout__items__item__content__pic"
+              />
+              <!--item picture container-->
+            </div>
+            <!--layout items window - item -->
+            <!--layout items window - item -->
+            <div class="content__layout__items__item">
+              <!--item top-interactions bar-->
+              <div class="content__layout__items__item__top-bar">
+                <!--title and close btn container-->
+                <div class="content__layout__items__item__top-bar__left-btns">
+                  <!--title  -->
+                  <p
+                    class="content__layout__items__item__top-bar__left-btns__text"
+                  >
+                    Hall camera 1
+                  </p>
+                  <!--title-->
+
+                  <!--close btn (pic is svg from assets/images/layout/right-bar/close-btn)-->
+                  <button
+                    class="content__layout__items__item__top-bar__left-btns__close-btn"
+                  >
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 7L7 1M1 1L7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <!--close btn-->
+                </div>
+                <!--title and close btn container-->
+
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+                <button
+                  class="content__layout__items__item__top-bar__right-btn"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect x="8" width="6" height="6" rx="1" />
+                    <rect x="8" y="8" width="6" height="6" rx="1" />
+                    <rect width="6" height="6" rx="1" />
+                    <rect y="8" width="6" height="6" rx="1" />
+                  </svg>
+                </button>
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+              </div>
+              <!--item top-interactions bar-->
+
+              <!--item picture container-->
+              <img
+                src="./assets/images/layout/items/item-pic.jpg"
+                alt=""
+                class="content__layout__items__item__content__pic"
+              />
+              <!--item picture container-->
+            </div>
+            <!--layout items window - item -->
+            <!--layout items window - item -->
+            <div class="content__layout__items__item">
+              <!--item top-interactions bar-->
+              <div class="content__layout__items__item__top-bar">
+                <!--title and close btn container-->
+                <div class="content__layout__items__item__top-bar__left-btns">
+                  <!--title  -->
+                  <p
+                    class="content__layout__items__item__top-bar__left-btns__text"
+                  >
+                    Hall camera 1
+                  </p>
+                  <!--title-->
+
+                  <!--close btn (pic is svg from assets/images/layout/right-bar/close-btn)-->
+                  <button
+                    class="content__layout__items__item__top-bar__left-btns__close-btn"
+                  >
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 7L7 1M1 1L7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <!--close btn-->
+                </div>
+                <!--title and close btn container-->
+
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+                <button
+                  class="content__layout__items__item__top-bar__right-btn"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect x="8" width="6" height="6" rx="1" />
+                    <rect x="8" y="8" width="6" height="6" rx="1" />
+                    <rect width="6" height="6" rx="1" />
+                    <rect y="8" width="6" height="6" rx="1" />
+                  </svg>
+                </button>
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+              </div>
+              <!--item top-interactions bar-->
+
+              <!--item picture container-->
+              <img
+                src="./assets/images/layout/items/item-pic.jpg"
+                alt=""
+                class="content__layout__items__item__content__pic"
+              />
+              <!--item picture container-->
+            </div>
+            <!--layout items window - item -->
+            <!--layout items window - item -->
+            <div class="content__layout__items__item">
+              <!--item top-interactions bar-->
+              <div class="content__layout__items__item__top-bar">
+                <!--title and close btn container-->
+                <div class="content__layout__items__item__top-bar__left-btns">
+                  <!--title  -->
+                  <p
+                    class="content__layout__items__item__top-bar__left-btns__text"
+                  >
+                    Hall camera 1
+                  </p>
+                  <!--title-->
+
+                  <!--close btn (pic is svg from assets/images/layout/right-bar/close-btn)-->
+                  <button
+                    class="content__layout__items__item__top-bar__left-btns__close-btn"
+                  >
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 7L7 1M1 1L7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <!--close btn-->
+                </div>
+                <!--title and close btn container-->
+
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+                <button
+                  class="content__layout__items__item__top-bar__right-btn"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect x="8" width="6" height="6" rx="1" />
+                    <rect x="8" y="8" width="6" height="6" rx="1" />
+                    <rect width="6" height="6" rx="1" />
+                    <rect y="8" width="6" height="6" rx="1" />
+                  </svg>
+                </button>
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+              </div>
+              <!--item top-interactions bar-->
+
+              <!--item picture container-->
+              <img
+                src="./assets/images/layout/items/item-pic.jpg"
+                alt=""
+                class="content__layout__items__item__content__pic"
+              />
+              <!--item picture container-->
+            </div>
+            <!--layout items window - item -->
+            <!--layout items window - item -->
+            <div class="content__layout__items__item">
+              <!--item top-interactions bar-->
+              <div class="content__layout__items__item__top-bar">
+                <!--title and close btn container-->
+                <div class="content__layout__items__item__top-bar__left-btns">
+                  <!--title  -->
+                  <p
+                    class="content__layout__items__item__top-bar__left-btns__text"
+                  >
+                    Hall camera 1
+                  </p>
+                  <!--title-->
+
+                  <!--close btn (pic is svg from assets/images/layout/right-bar/close-btn)-->
+                  <button
+                    class="content__layout__items__item__top-bar__left-btns__close-btn"
+                  >
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 7L7 1M1 1L7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <!--close btn-->
+                </div>
+                <!--title and close btn container-->
+
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+                <button
+                  class="content__layout__items__item__top-bar__right-btn"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect x="8" width="6" height="6" rx="1" />
+                    <rect x="8" y="8" width="6" height="6" rx="1" />
+                    <rect width="6" height="6" rx="1" />
+                    <rect y="8" width="6" height="6" rx="1" />
+                  </svg>
+                </button>
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+              </div>
+              <!--item top-interactions bar-->
+
+              <!--item picture container-->
+              <img
+                src="./assets/images/layout/items/item-pic.jpg"
+                alt=""
+                class="content__layout__items__item__content__pic"
+              />
+              <!--item picture container-->
+            </div>
+            <!--layout items window - item -->
+            <!--layout items window - item -->
+            <div class="content__layout__items__item">
+              <!--item top-interactions bar-->
+              <div class="content__layout__items__item__top-bar">
+                <!--title and close btn container-->
+                <div class="content__layout__items__item__top-bar__left-btns">
+                  <!--title  -->
+                  <p
+                    class="content__layout__items__item__top-bar__left-btns__text"
+                  >
+                    Hall camera 1
+                  </p>
+                  <!--title-->
+
+                  <!--close btn (pic is svg from assets/images/layout/right-bar/close-btn)-->
+                  <button
+                    class="content__layout__items__item__top-bar__left-btns__close-btn"
+                  >
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 7L7 1M1 1L7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <!--close btn-->
+                </div>
+                <!--title and close btn container-->
+
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+                <button
+                  class="content__layout__items__item__top-bar__right-btn"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect x="8" width="6" height="6" rx="1" />
+                    <rect x="8" y="8" width="6" height="6" rx="1" />
+                    <rect width="6" height="6" rx="1" />
+                    <rect y="8" width="6" height="6" rx="1" />
+                  </svg>
+                </button>
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+              </div>
+              <!--item top-interactions bar-->
+
+              <!--item picture container-->
+              <img
+                src="./assets/images/layout/items/item-pic.jpg"
+                alt=""
+                class="content__layout__items__item__content__pic"
+              />
+              <!--item picture container-->
+            </div>
+            <!--layout items window - item -->
+            <!--layout items window - item -->
+            <div class="content__layout__items__item">
+              <!--item top-interactions bar-->
+              <div class="content__layout__items__item__top-bar">
+                <!--title and close btn container-->
+                <div class="content__layout__items__item__top-bar__left-btns">
+                  <!--title  -->
+                  <p
+                    class="content__layout__items__item__top-bar__left-btns__text"
+                  >
+                    Hall camera 1
+                  </p>
+                  <!--title-->
+
+                  <!--close btn (pic is svg from assets/images/layout/right-bar/close-btn)-->
+                  <button
+                    class="content__layout__items__item__top-bar__left-btns__close-btn"
+                  >
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 7L7 1M1 1L7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <!--close btn-->
+                </div>
+                <!--title and close btn container-->
+
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+                <button
+                  class="content__layout__items__item__top-bar__right-btn"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect x="8" width="6" height="6" rx="1" />
+                    <rect x="8" y="8" width="6" height="6" rx="1" />
+                    <rect width="6" height="6" rx="1" />
+                    <rect y="8" width="6" height="6" rx="1" />
+                  </svg>
+                </button>
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+              </div>
+              <!--item top-interactions bar-->
+
+              <!--item picture container-->
+              <img
+                src="./assets/images/layout/items/item-pic.jpg"
+                alt=""
+                class="content__layout__items__item__content__pic"
+              />
+              <!--item picture container-->
+            </div>
+            <!--layout items window - item -->
+            <!--layout items window - item -->
+            <div class="content__layout__items__item">
+              <!--item top-interactions bar-->
+              <div class="content__layout__items__item__top-bar">
+                <!--title and close btn container-->
+                <div class="content__layout__items__item__top-bar__left-btns">
+                  <!--title  -->
+                  <p
+                    class="content__layout__items__item__top-bar__left-btns__text"
+                  >
+                    Hall camera 1
+                  </p>
+                  <!--title-->
+
+                  <!--close btn (pic is svg from assets/images/layout/right-bar/close-btn)-->
+                  <button
+                    class="content__layout__items__item__top-bar__left-btns__close-btn"
+                  >
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 7L7 1M1 1L7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <!--close btn-->
+                </div>
+                <!--title and close btn container-->
+
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+                <button
+                  class="content__layout__items__item__top-bar__right-btn"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect x="8" width="6" height="6" rx="1" />
+                    <rect x="8" y="8" width="6" height="6" rx="1" />
+                    <rect width="6" height="6" rx="1" />
+                    <rect y="8" width="6" height="6" rx="1" />
+                  </svg>
+                </button>
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+              </div>
+              <!--item top-interactions bar-->
+
+              <!--item picture container-->
+              <img
+                src="./assets/images/layout/items/item-pic.jpg"
+                alt=""
+                class="content__layout__items__item__content__pic"
+              />
+              <!--item picture container-->
+            </div>
+            <!--layout items window - item -->
+            <!--layout items window - item -->
+            <div class="content__layout__items__item">
+              <!--item top-interactions bar-->
+              <div class="content__layout__items__item__top-bar">
+                <!--title and close btn container-->
+                <div class="content__layout__items__item__top-bar__left-btns">
+                  <!--title  -->
+                  <p
+                    class="content__layout__items__item__top-bar__left-btns__text"
+                  >
+                    Hall camera 1
+                  </p>
+                  <!--title-->
+
+                  <!--close btn (pic is svg from assets/images/layout/right-bar/close-btn)-->
+                  <button
+                    class="content__layout__items__item__top-bar__left-btns__close-btn"
+                  >
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 7L7 1M1 1L7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <!--close btn-->
+                </div>
+                <!--title and close btn container-->
+
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+                <button
+                  class="content__layout__items__item__top-bar__right-btn"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect x="8" width="6" height="6" rx="1" />
+                    <rect x="8" y="8" width="6" height="6" rx="1" />
+                    <rect width="6" height="6" rx="1" />
+                    <rect y="8" width="6" height="6" rx="1" />
+                  </svg>
+                </button>
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+              </div>
+              <!--item top-interactions bar-->
+
+              <!--item picture container-->
+              <img
+                src="./assets/images/layout/items/item-pic.jpg"
+                alt=""
+                class="content__layout__items__item__content__pic"
+              />
+              <!--item picture container-->
+            </div>
+            <!--layout items window - item -->
+            <!--layout items window - item -->
+            <div class="content__layout__items__item">
+              <!--item top-interactions bar-->
+              <div class="content__layout__items__item__top-bar">
+                <!--title and close btn container-->
+                <div class="content__layout__items__item__top-bar__left-btns">
+                  <!--title  -->
+                  <p
+                    class="content__layout__items__item__top-bar__left-btns__text"
+                  >
+                    Hall camera 1
+                  </p>
+                  <!--title-->
+
+                  <!--close btn (pic is svg from assets/images/layout/right-bar/close-btn)-->
+                  <button
+                    class="content__layout__items__item__top-bar__left-btns__close-btn"
+                  >
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 7L7 1M1 1L7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <!--close btn-->
+                </div>
+                <!--title and close btn container-->
+
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+                <button
+                  class="content__layout__items__item__top-bar__right-btn"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect x="8" width="6" height="6" rx="1" />
+                    <rect x="8" y="8" width="6" height="6" rx="1" />
+                    <rect width="6" height="6" rx="1" />
+                    <rect y="8" width="6" height="6" rx="1" />
+                  </svg>
+                </button>
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+              </div>
+              <!--item top-interactions bar-->
+
+              <!--item picture container-->
+              <img
+                src="./assets/images/layout/items/item-pic.jpg"
+                alt=""
+                class="content__layout__items__item__content__pic"
+              />
+              <!--item picture container-->
+            </div>
+            <!--layout items window - item -->
+            <!--layout items window - item -->
+            <div class="content__layout__items__item">
+              <!--item top-interactions bar-->
+              <div class="content__layout__items__item__top-bar">
+                <!--title and close btn container-->
+                <div class="content__layout__items__item__top-bar__left-btns">
+                  <!--title  -->
+                  <p
+                    class="content__layout__items__item__top-bar__left-btns__text"
+                  >
+                    Hall camera 1
+                  </p>
+                  <!--title-->
+
+                  <!--close btn (pic is svg from assets/images/layout/right-bar/close-btn)-->
+                  <button
+                    class="content__layout__items__item__top-bar__left-btns__close-btn"
+                  >
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 7L7 1M1 1L7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <!--close btn-->
+                </div>
+                <!--title and close btn container-->
+
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+                <button
+                  class="content__layout__items__item__top-bar__right-btn"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect x="8" width="6" height="6" rx="1" />
+                    <rect x="8" y="8" width="6" height="6" rx="1" />
+                    <rect width="6" height="6" rx="1" />
+                    <rect y="8" width="6" height="6" rx="1" />
+                  </svg>
+                </button>
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+              </div>
+              <!--item top-interactions bar-->
+
+              <!--item picture container-->
+              <img
+                src="./assets/images/layout/items/item-pic.jpg"
+                alt=""
+                class="content__layout__items__item__content__pic"
+              />
+              <!--item picture container-->
+            </div>
+            <!--layout items window - item -->
+            <!--layout items window - item -->
+            <div class="content__layout__items__item">
+              <!--item top-interactions bar-->
+              <div class="content__layout__items__item__top-bar">
+                <!--title and close btn container-->
+                <div class="content__layout__items__item__top-bar__left-btns">
+                  <!--title  -->
+                  <p
+                    class="content__layout__items__item__top-bar__left-btns__text"
+                  >
+                    Hall camera 1
+                  </p>
+                  <!--title-->
+
+                  <!--close btn (pic is svg from assets/images/layout/right-bar/close-btn)-->
+                  <button
+                    class="content__layout__items__item__top-bar__left-btns__close-btn"
+                  >
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 7L7 1M1 1L7 7"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <!--close btn-->
+                </div>
+                <!--title and close btn container-->
+
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+                <button
+                  class="content__layout__items__item__top-bar__right-btn"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect x="8" width="6" height="6" rx="1" />
+                    <rect x="8" y="8" width="6" height="6" rx="1" />
+                    <rect width="6" height="6" rx="1" />
+                    <rect y="8" width="6" height="6" rx="1" />
+                  </svg>
+                </button>
+                <!--item right-btn pic is svg from assest/images/layout/edit/left-bar/button5-->
+              </div>
+              <!--item top-interactions bar-->
+
+              <!--item picture container-->
+              <img
+                src="./assets/images/layout/items/item-pic.jpg"
+                alt=""
+                class="content__layout__items__item__content__pic"
+              />
+              <!--item picture container-->
+            </div>
+            <!--layout items window - item -->
+          </div>
+          <!--layout items window container -->
+        </div>
+        <!--layout items window-->
+      </div>
+      <!--layout (left box with items) -->
+
+      <!--layout right sidebar live events -->
+      <div class="content__layout__live-events content__layout__live-events-filters">
+        <!--live events top interactions bar -->
+        <div class="content__layout__live-events__interactions">
+          <p class="content__layout__live-events__interactions__title">
+            Live Events
+          </p>
+          <!--filter button pic is svg from assets/images/layot/live-events/filter-pic.svg -->
+          <button
+            class="content__layout__live-events__interactions__filter-btn content__layout__live-events__interactions__filter-btn-active"
+          >
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M22.9059 1.60962C22.7291 1.20328 22.4224 1 21.9848 1H2.01479C1.57817 1 1.27058 1.20328 1.09392 1.60962C0.91703 2.03655 0.990029 2.40093 1.31271 2.70323L9.30087 10.4062L9.25 18.1876C9.25 18.4582 9.74025 18.6773 9.9375 18.875L13.2952 22.7023C13.4825 22.9007 13.7161 23 13.9976 23C14.1219 23 14.2518 22.9739 14.3875 22.9214C14.7933 22.7445 14.7497 22.0622 14.7497 21.625V10.4062L22.6881 2.70323C23.0106 2.40093 23.0826 2.03655 22.9059 1.60962Z"
+                stroke-width="2"
+              />
+            </svg>
+          </button>
+          <!--filter button pic is svg from assets/images/layot/live-events/filter-pic.svg -->
+        </div>
+        <!--live events top interactions bar -->
+
+        <!--layout right-sidebar items-->
+        <div class="content__layout__live-events__items">
+          <!--right-sidebar-item-container of 2-->
+          <div class="content__layout__live-events__item-container">
+            <!--right-sidebar-item-->
+            <div class="content__layout__live-events__items__item">
+              <div class="content__layout__live-events__items__item__pic">
+                <img
+                  src="./assets/images/layout/live-events/live-events__person.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="content__layout__live-events__items__item__title">
+                TIME
+              </p>
+              <p class="content__layout__live-events__items__item__content">
+                17:05:32
+              </p>
+            </div>
+            <!--right-sidebar-item-->
+
+            <!--right-sidebar-item-->
+            <div class="content__layout__live-events__items__item">
+              <div class="content__layout__live-events__items__item__pic">
+                <img
+                  src="./assets/images/layout/live-events/live-events__person.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="content__layout__live-events__items__item__title">
+                TIME
+              </p>
+              <p class="content__layout__live-events__items__item__content">
+                17:05:32
+              </p>
+            </div>
+            <!--right-sidebar-item-->
+
+            <!--right sidebar items hover window-->
+            <div class="content__layout__live-events__items__hov-window">
+              <!--text-->
+              <div
+                class="content__layout__live-events__items__hov-window__columns"
+              >
+                <!--column of textboxes-->
+                <div
+                  class="content__layout__live-events__items__hov-window__columns__column"
+                >
+                  <!--text-box for title and text-->
+                  <div
+                    class="content__layout__live-events__items__hov-window__columns__column__textbox"
+                  >
+                    <p
+                      class="content__layout__live-events__items__hov-window__columns__column__textbox__title"
+                    >
+                      time
+                    </p>
+                    <p
+                      class="content__layout__live-events__items__hov-window__columns__column__textbox__text"
+                    >
+                      17:05:32
+                    </p>
+                  </div>
+                  <!--text-box for title and text-->
+
+                  <!--text-box for title and text-->
+                  <div
+                    class="content__layout__live-events__items__hov-window__columns__column__textbox"
+                  >
+                    <p
+                      class="content__layout__live-events__items__hov-window__columns__column__textbox__title"
+                    >
+                      name
+                    </p>
+                    <p
+                      class="content__layout__live-events__items__hov-window__columns__column__textbox__text"
+                    >
+                      Evgeny
+                    </p>
+                  </div>
+                  <!--text-box for title and text-->
+
+                  <!--text-box for title and text-->
+                  <div
+                    class="content__layout__live-events__items__hov-window__columns__column__textbox"
+                  >
+                    <p
+                      class="content__layout__live-events__items__hov-window__columns__column__textbox__title"
+                    >
+                      last name
+                    </p>
+                    <p
+                      class="content__layout__live-events__items__hov-window__columns__column__textbox__text"
+                    >
+                      Belyanov
+                    </p>
+                  </div>
+                  <!--text-box for title and text-->
+                </div>
+                <!--column of textboxes-->
+
+                <!--column of textboxes-->
+                <div
+                  class="content__layout__live-events__items__hov-window__columns__column"
+                >
+                  <!--text-box for title and text-->
+                  <div
+                    class="content__layout__live-events__items__hov-window__columns__column__textbox"
+                  >
+                    <p
+                      class="content__layout__live-events__items__hov-window__columns__column__textbox__title"
+                    >
+                      list
+                    </p>
+                    <p
+                      class="content__layout__live-events__items__hov-window__columns__column__textbox__text"
+                    >
+                      Interpol Search
+                    </p>
+                  </div>
+                  <!--text-box for title and text-->
+
+                  <!--text-box for title and text-->
+                  <div
+                    class="content__layout__live-events__items__hov-window__columns__column__textbox"
+                  >
+                    <p
+                      class="content__layout__live-events__items__hov-window__columns__column__textbox__title"
+                    >
+                      source
+                    </p>
+                    <p
+                      class="content__layout__live-events__items__hov-window__columns__column__textbox__text"
+                    >
+                      Parking_cam_1
+                    </p>
+                  </div>
+                  <!--text-box for title and text-->
+
+                  <!--text-box for title and text-->
+                  <div
+                    class="content__layout__live-events__items__hov-window__columns__column__textbox"
+                  >
+                    <p
+                      class="content__layout__live-events__items__hov-window__columns__column__textbox__title"
+                    >
+                      similarity
+                    </p>
+                    <p
+                      class="content__layout__live-events__items__hov-window__columns__column__textbox__text"
+                    >
+                      98 %
+                    </p>
+                  </div>
+                  <!--text-box for title and text-->
+                </div>
+                <!--column of textboxes-->
+              </div>
+              <!--text-->
+              <button
+                class="content__layout__live-events__items__hov-window__button"
+              >
+                Open event
+              </button>
+            </div>
+            <!--right sidebar items hover window-->
+          </div>
+          <!--right-sidebar-item container of 2-->
+        </div>
+        <!--layout right-sidebar items-->
+        <!--layout right-sidebar items-->
+        <div
+          class="content__layout__live-events__items content__layout__live-events__items-color-red"
+        >
+          <!--right-sidebar-item-container of 2-->
+          <div class="content__layout__live-events__item-container">
+            <!--right-sidebar-item-->
+            <div class="content__layout__live-events__items__item">
+              <div class="content__layout__live-events__items__item__pic">
+                <img
+                  src="./assets/images/layout/live-events/live-events__person.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="content__layout__live-events__items__item__title">
+                TIME
+              </p>
+              <p class="content__layout__live-events__items__item__content">
+                17:05:32
+              </p>
+            </div>
+            <!--right-sidebar-item-->
+
+            <!--right-sidebar-item-->
+            <div class="content__layout__live-events__items__item">
+              <div class="content__layout__live-events__items__item__pic">
+                <img
+                  src="./assets/images/layout/live-events/live-events__person.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="content__layout__live-events__items__item__title">
+                TIME
+              </p>
+              <p class="content__layout__live-events__items__item__content">
+                17:05:32
+              </p>
+            </div>
+            <!--right-sidebar-item-->
+
+            <!--right sidebar items hover window-->
+            <div class="content__layout__live-events__items__hov-window">
+              <!--text-->
+              <div
+                class="content__layout__live-events__items__hov-window__columns"
+              >
+                <!--column of textboxes-->
+                <div
+                  class="content__layout__live-events__items__hov-window__columns__column"
+                >
+                  <!--text-box for title and text-->
+                  <div
+                    class="content__layout__live-events__items__hov-window__columns__column__textbox"
+                  >
+                    <p
+                      class="content__layout__live-events__items__hov-window__columns__column__textbox__title"
+                    >
+                      time
+                    </p>
+                    <p
+                      class="content__layout__live-events__items__hov-window__columns__column__textbox__text"
+                    >
+                      17:05:32
+                    </p>
+                  </div>
+                  <!--text-box for title and text-->
+
+                  <!--text-box for title and text-->
+                  <div
+                    class="content__layout__live-events__items__hov-window__columns__column__textbox"
+                  >
+                    <p
+                      class="content__layout__live-events__items__hov-window__columns__column__textbox__title"
+                    >
+                      name
+                    </p>
+                    <p
+                      class="content__layout__live-events__items__hov-window__columns__column__textbox__text"
+                    >
+                      Evgeny
+                    </p>
+                  </div>
+                  <!--text-box for title and text-->
+
+                  <!--text-box for title and text-->
+                  <div
+                    class="content__layout__live-events__items__hov-window__columns__column__textbox"
+                  >
+                    <p
+                      class="content__layout__live-events__items__hov-window__columns__column__textbox__title"
+                    >
+                      last name
+                    </p>
+                    <p
+                      class="content__layout__live-events__items__hov-window__columns__column__textbox__text"
+                    >
+                      Belyanov
+                    </p>
+                  </div>
+                  <!--text-box for title and text-->
+                </div>
+                <!--column of textboxes-->
+
+                <!--column of textboxes-->
+                <div
+                  class="content__layout__live-events__items__hov-window__columns__column"
+                >
+                  <!--text-box for title and text-->
+                  <div
+                    class="content__layout__live-events__items__hov-window__columns__column__textbox"
+                  >
+                    <p
+                      class="content__layout__live-events__items__hov-window__columns__column__textbox__title"
+                    >
+                      list
+                    </p>
+                    <p
+                      class="content__layout__live-events__items__hov-window__columns__column__textbox__text"
+                    >
+                      Interpol Search
+                    </p>
+                  </div>
+                  <!--text-box for title and text-->
+
+                  <!--text-box for title and text-->
+                  <div
+                    class="content__layout__live-events__items__hov-window__columns__column__textbox"
+                  >
+                    <p
+                      class="content__layout__live-events__items__hov-window__columns__column__textbox__title"
+                    >
+                      source
+                    </p>
+                    <p
+                      class="content__layout__live-events__items__hov-window__columns__column__textbox__text"
+                    >
+                      Parking_cam_1
+                    </p>
+                  </div>
+                  <!--text-box for title and text-->
+
+                  <!--text-box for title and text-->
+                  <div
+                    class="content__layout__live-events__items__hov-window__columns__column__textbox"
+                  >
+                    <p
+                      class="content__layout__live-events__items__hov-window__columns__column__textbox__title"
+                    >
+                      similarity
+                    </p>
+                    <p
+                      class="content__layout__live-events__items__hov-window__columns__column__textbox__text"
+                    >
+                      98 %
+                    </p>
+                  </div>
+                  <!--text-box for title and text-->
+                </div>
+                <!--column of textboxes-->
+              </div>
+              <!--text-->
+              <button
+                class="content__layout__live-events__items__hov-window__button"
+              >
+                Open event
+              </button>
+            </div>
+            <!--right sidebar items hover window-->
+          </div>
+          <!--right-sidebar-item container of 2-->
+        </div>
+        <!--layout right-sidebar items-->
+        <!--right sidebar filter -->
+        <div class="content__layout__live-events__filters content__layout__live-events__filters-open">
+          <!--filter-boxes-container-->
+          <div class="content__layout__live-events__filters__container">
+            <!--right sidebar filter-box-->
+            <div class="content__layout__live-events__filters__filter-box">
+              <!--right sidebar filter-box title-->
+              <p
+                class="content__layout__live-events__filters__filter-box__title"
+              >
+                minimum similarity
+              </p>
+              <!--right sidebar filter-box title-->
+
+              <!--right sidebar filter-box percent-bar-->
+              <div
+                class="content__layout__live-events__filters__filter-box__bar"
+              >
+                <p
+                  class="content__layout__live-events__filters__filter-box__bar__percent"
+                >
+                  23%
+                </p>
+              </div>
+              <!--right sidebar filter-box percent-bar-->
+            </div>
+            <!--right sidebar filter-box-->
+          </div>
+          <!--filter-boxes-container-->
+
+          <!--right-sidebar buttons-box-->
+          <div class="content__layout__live-events__filters__button-box">
+            <button
+              class="content__layout__live-events__filters__button-box__sbm-btn"
+            >
+              Submit
+            </button>
+            <button
+              class="content__layout__live-events__filters__button-box__clear-btn"
+            >
+              Clear
+            </button>
+          </div>
+          <!--right-sidebar buttons-box-->
+        </div>
+        <!--right sidebar filter -->
+      </div>
+      <!--layout right sidebar live events -->
+    </section>
+    <!--content-->
+
+    <!--show event window on all screen-->
+    <div class="showevent-container">
+      <!--center window-->
+      <div class="showevent-container__content">
+        <!--images container of 2-->
+        <div class="showevent-container__images">
+          <!--image-->
+          <div class="showevent-container__images__image">
+            <p class="showevent-container__images__image__title">Event image</p>
+            <!--pic from assets/images/layout/live-events/-->
+            <img
+              src="./assets/images/layout/live-events/live-events__person.jpg"
+              alt=""
+              class="showevent-container__images__image__pic"
+            />
+            <!--pic from assets/images/layout/live-events/-->
+          </div>
+          <!--image-->
+
+          <!--image-->
+          <div class="showevent-container__images__image">
+            <p class="showevent-container__images__image__title">
+              database image
+            </p>
+            <!--pic from assets/images/layout/live-events/-->
+            <img
+              src="./assets/images/layout/live-events/person2.jpg"
+              alt=""
+              class="showevent-container__images__image__pic"
+            />
+            <!--pic from assets/images/layout/live-events/-->
+          </div>
+          <!--image-->
+        </div>
+        <!--images container of 2-->
+
+        <!--inputs container-->
+        <div class="showevent-container__inputs-container">
+          <!--input-->
+          <div class="showevent-container__inputs-container__input">
+            <p class="showevent-container__inputs-container__input__title">
+              Similarity Score
+            </p>
+            <!--bar for input-->
+            <div class="showevent-container__inputs-container__input__bar">
+              <input
+                type="text"
+                class="showevent-container__inputs-container__input__bar__input-element"
+                value="98%"
+              />
+            </div>
+            <!--bar for input-->
+          </div>
+          <!--input-->
+          <!--input-->
+          <div class="showevent-container__inputs-container__input">
+            <p class="showevent-container__inputs-container__input__title">
+              list
+            </p>
+            <!--bar for input-->
+            <div class="showevent-container__inputs-container__input__bar">
+              <input
+                type="text"
+                class="showevent-container__inputs-container__input__bar__input-element"
+                value="Interpol Search"
+              />
+            </div>
+            <!--bar for input-->
+          </div>
+          <!--input-->
+          <!--input-->
+          <div class="showevent-container__inputs-container__input">
+            <p class="showevent-container__inputs-container__input__title">
+              Source
+            </p>
+            <!--bar for input-->
+            <div class="showevent-container__inputs-container__input__bar">
+              <input
+                type="text"
+                class="showevent-container__inputs-container__input__bar__input-element"
+                value="Parking_cam_1"
+              />
+            </div>
+            <!--bar for input-->
+          </div>
+          <!--input-->
+          <!--input-->
+          <div class="showevent-container__inputs-container__input">
+            <p class="showevent-container__inputs-container__input__title">
+              name / last name
+            </p>
+            <!--bar for input-->
+            <div class="showevent-container__inputs-container__input__bar">
+              <input
+                type="text"
+                class="showevent-container__inputs-container__input__bar__input-element"
+                value="Evgeny Belyanov"
+              />
+            </div>
+            <!--bar for input-->
+          </div>
+          <!--input-->
+          <!--input-->
+          <div class="showevent-container__inputs-container__input">
+            <p class="showevent-container__inputs-container__input__title">
+              date / time
+            </p>
+            <!--bar for input-->
+            <div class="showevent-container__inputs-container__input__bar">
+              <input
+                type="text"
+                class="showevent-container__inputs-container__input__bar__input-element"
+                value="21.11.22/17:05:32"
+                contenteditable="true"
+              />
+            </div>
+            <!--bar for input-->
+          </div>
+          <!--input-->
+          <!--input-->
+          <div class="showevent-container__inputs-container__input">
+            <p class="showevent-container__inputs-container__input__title">
+              ZONE
+            </p>
+            <!--bar for input-->
+            <div class="showevent-container__inputs-container__input__bar">
+              <input
+                type="text"
+                class="showevent-container__inputs-container__input__bar__input-element"
+                value="Entrance 1"
+              />
+            </div>
+            <!--bar for input-->
+          </div>
+          <!--input-->
+        </div>
+        <!--inputs container-->
+
+        <!--buttons container-->
+        <div class="showevent-container__buttons">
+          <button class="showevent-container__buttons__btn-left">
+            Create Task
+          </button>
+          </button>
+          <button class="showevent-container__buttons__btn-right">
+            Dismiss
+          </button>
+        </div>
+        <!--buttons container-->
+
+        <!--close btn pic is svg code from assets/images/cross.svg-->
+        <button class="showevent-container__close-btn" id="showEvent-close-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M34.0915 30.2736C35.0204 31.2025 35.0204 32.7085 34.0915 33.6374V33.6374C33.1627 34.5663 31.6566 34.5663 30.7278 33.6374L13.909 16.8186C12.9801 15.8898 12.9801 14.3837 13.909 13.4548V13.4548C14.8379 12.526 16.3439 12.526 17.2728 13.4548L34.0915 30.2736Z" fill="#007BFF"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M30.7277 13.4548C31.6566 12.526 33.1627 12.526 34.0915 13.4548V13.4548C35.0204 14.3837 35.0204 15.8898 34.0915 16.8186L17.2728 33.6374C16.3439 34.5663 14.8379 34.5663 13.909 33.6374V33.6374C12.9801 32.7085 12.9801 31.2025 13.909 30.2736L30.7277 13.4548Z" fill="#007BFF"/>
+          </svg>        
+        </button>
+        <!--close btn -->
+      </div>
+      <!--center window-->
+    </div>
+    <!--show event window on all screen-->
+
+    <!--show all live events window on whole screen-->
+    <div class="showAllLiveEvents-container">
+      <!--show all live events content-center-window-->
+      <div class="showAllLiveEvents-container__content">
+        <!--show all live events img-container-->
+        <div class="showAllLiveEvents-container__content__img" style="background-image: url('./assets/images/showAllLiveEvents/cam-pic.jpg');">
+          <img src="./assets/images/showAllLiveEvents/cam-pic.jpg" alt="" class="showAllLiveEvents-container__content__img__pic">
+        </div>
+        <!--show all live events img-container-->
+        <div class="showAllLiveEvents-container__content__live-events">
+          <!--header for live events-->
+          <div class="content__layout__live-events__interactions">
+            <p class="content__layout__live-events__interactions__title">
+              Live Events
+            </p>
+            <!--filter button pic is svg from assets/images/layot/live-events/filter-pic.svg -->
+            <button class="content__layout__live-events__interactions__filter-btn">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M22.9059 1.60962C22.7291 1.20328 22.4224 1 21.9848 1H2.01479C1.57817 1 1.27058 1.20328 1.09392 1.60962C0.91703 2.03655 0.990029 2.40093 1.31271 2.70323L9.30087 10.4062L9.25 18.1876C9.25 18.4582 9.74025 18.6773 9.9375 18.875L13.2952 22.7023C13.4825 22.9007 13.7161 23 13.9976 23C14.1219 23 14.2518 22.9739 14.3875 22.9214C14.7933 22.7445 14.7497 22.0622 14.7497 21.625V10.4062L22.6881 2.70323C23.0106 2.40093 23.0826 2.03655 22.9059 1.60962Z" stroke-width="2"></path>
+              </svg>
+            </button>
+            <!--filter button pic is svg from assets/images/layot/live-events/filter-pic.svg -->
+          </div>
+          <!--header for live events-->
+          <!--live events container-->
+          <div class="showAllEvents-container__content__live-events__container">
+            <!--live-event-->
+            <div class="content__layout__live-events__items">
+              <!--right-sidebar-item-container of 2-->
+              <div class="content__layout__live-events__item-container">
+                <!--right-sidebar-item-->
+                <div class="content__layout__live-events__items__item">
+                  <div class="content__layout__live-events__items__item__pic">
+                    <img src="./assets/images/layout/live-events/live-events__person.jpg" alt="">
+                  </div>
+                  <p class="content__layout__live-events__items__item__title">
+                    TIME
+                  </p>
+                  <p class="content__layout__live-events__items__item__content">
+                    17:05:32
+                  </p>
+                </div>
+                <!--right-sidebar-item-->
+    
+                <!--right-sidebar-item-->
+                <div class="content__layout__live-events__items__item">
+                  <div class="content__layout__live-events__items__item__pic">
+                    <img src="./assets/images/layout/live-events/live-events__person.jpg" alt="">
+                  </div>
+                  <p class="content__layout__live-events__items__item__title">
+                    TIME
+                  </p>
+                  <p class="content__layout__live-events__items__item__content">
+                    17:05:32
+                  </p>
+                </div>
+                <!--right-sidebar-item-->
+    
+                <!--right sidebar items hover window-->
+                <div class="content__layout__live-events__items__hov-window">
+                  <!--text-->
+                  <div class="content__layout__live-events__items__hov-window__columns">
+                    <!--column of textboxes-->
+                    <div class="content__layout__live-events__items__hov-window__columns__column">
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          time
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          17:05:32
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+    
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          name
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          Evgeny
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+    
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          last name
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          Belyanov
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+                    </div>
+                    <!--column of textboxes-->
+    
+                    <!--column of textboxes-->
+                    <div class="content__layout__live-events__items__hov-window__columns__column">
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          list
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          Interpol Search
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+    
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          source
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          Parking_cam_1
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+    
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          similarity
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          98 %
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+                    </div>
+                    <!--column of textboxes-->
+                  </div>
+                  <!--text-->
+                  <button class="content__layout__live-events__items__hov-window__button">
+                    Open event
+                  </button>
+                </div>
+                <!--right sidebar items hover window-->
+              </div>
+              <!--right-sidebar-item container of 2-->
+            </div>
+            <!--live-event-->
+            <!--live-event-->
+            <div class="content__layout__live-events__items">
+              <!--right-sidebar-item-container of 2-->
+              <div class="content__layout__live-events__item-container">
+                <!--right-sidebar-item-->
+                <div class="content__layout__live-events__items__item">
+                  <div class="content__layout__live-events__items__item__pic">
+                    <img src="./assets/images/layout/live-events/live-events__person.jpg" alt="">
+                  </div>
+                  <p class="content__layout__live-events__items__item__title">
+                    TIME
+                  </p>
+                  <p class="content__layout__live-events__items__item__content">
+                    17:05:32
+                  </p>
+                </div>
+                <!--right-sidebar-item-->
+    
+                <!--right-sidebar-item-->
+                <div class="content__layout__live-events__items__item">
+                  <div class="content__layout__live-events__items__item__pic">
+                    <img src="./assets/images/layout/live-events/live-events__person.jpg" alt="">
+                  </div>
+                  <p class="content__layout__live-events__items__item__title">
+                    TIME
+                  </p>
+                  <p class="content__layout__live-events__items__item__content">
+                    17:05:32
+                  </p>
+                </div>
+                <!--right-sidebar-item-->
+    
+                <!--right sidebar items hover window-->
+                <div class="content__layout__live-events__items__hov-window">
+                  <!--text-->
+                  <div class="content__layout__live-events__items__hov-window__columns">
+                    <!--column of textboxes-->
+                    <div class="content__layout__live-events__items__hov-window__columns__column">
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          time
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          17:05:32
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+    
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          name
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          Evgeny
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+    
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          last name
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          Belyanov
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+                    </div>
+                    <!--column of textboxes-->
+    
+                    <!--column of textboxes-->
+                    <div class="content__layout__live-events__items__hov-window__columns__column">
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          list
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          Interpol Search
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+    
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          source
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          Parking_cam_1
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+    
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          similarity
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          98 %
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+                    </div>
+                    <!--column of textboxes-->
+                  </div>
+                  <!--text-->
+                  <button class="content__layout__live-events__items__hov-window__button">
+                    Open event
+                  </button>
+                </div>
+                <!--right sidebar items hover window-->
+              </div>
+              <!--right-sidebar-item container of 2-->
+            </div>
+            <!--live-event-->
+            <!--live-event-->
+            <div class="content__layout__live-events__items">
+              <!--right-sidebar-item-container of 2-->
+              <div class="content__layout__live-events__item-container">
+                <!--right-sidebar-item-->
+                <div class="content__layout__live-events__items__item">
+                  <div class="content__layout__live-events__items__item__pic">
+                    <img src="./assets/images/layout/live-events/live-events__person.jpg" alt="">
+                  </div>
+                  <p class="content__layout__live-events__items__item__title">
+                    TIME
+                  </p>
+                  <p class="content__layout__live-events__items__item__content">
+                    17:05:32
+                  </p>
+                </div>
+                <!--right-sidebar-item-->
+    
+                <!--right-sidebar-item-->
+                <div class="content__layout__live-events__items__item">
+                  <div class="content__layout__live-events__items__item__pic">
+                    <img src="./assets/images/layout/live-events/live-events__person.jpg" alt="">
+                  </div>
+                  <p class="content__layout__live-events__items__item__title">
+                    TIME
+                  </p>
+                  <p class="content__layout__live-events__items__item__content">
+                    17:05:32
+                  </p>
+                </div>
+                <!--right-sidebar-item-->
+    
+                <!--right sidebar items hover window-->
+                <div class="content__layout__live-events__items__hov-window">
+                  <!--text-->
+                  <div class="content__layout__live-events__items__hov-window__columns">
+                    <!--column of textboxes-->
+                    <div class="content__layout__live-events__items__hov-window__columns__column">
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          time
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          17:05:32
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+    
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          name
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          Evgeny
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+    
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          last name
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          Belyanov
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+                    </div>
+                    <!--column of textboxes-->
+    
+                    <!--column of textboxes-->
+                    <div class="content__layout__live-events__items__hov-window__columns__column">
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          list
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          Interpol Search
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+    
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          source
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          Parking_cam_1
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+    
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          similarity
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          98 %
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+                    </div>
+                    <!--column of textboxes-->
+                  </div>
+                  <!--text-->
+                  <button class="content__layout__live-events__items__hov-window__button">
+                    Open event
+                  </button>
+                </div>
+                <!--right sidebar items hover window-->
+              </div>
+              <!--right-sidebar-item container of 2-->
+            </div>
+            <!--live-event-->
+            <!--live-event-->
+            <div class="content__layout__live-events__items">
+              <!--right-sidebar-item-container of 2-->
+              <div class="content__layout__live-events__item-container">
+                <!--right-sidebar-item-->
+                <div class="content__layout__live-events__items__item">
+                  <div class="content__layout__live-events__items__item__pic">
+                    <img src="./assets/images/layout/live-events/live-events__person.jpg" alt="">
+                  </div>
+                  <p class="content__layout__live-events__items__item__title">
+                    TIME
+                  </p>
+                  <p class="content__layout__live-events__items__item__content">
+                    17:05:32
+                  </p>
+                </div>
+                <!--right-sidebar-item-->
+    
+                <!--right-sidebar-item-->
+                <div class="content__layout__live-events__items__item">
+                  <div class="content__layout__live-events__items__item__pic">
+                    <img src="./assets/images/layout/live-events/live-events__person.jpg" alt="">
+                  </div>
+                  <p class="content__layout__live-events__items__item__title">
+                    TIME
+                  </p>
+                  <p class="content__layout__live-events__items__item__content">
+                    17:05:32
+                  </p>
+                </div>
+                <!--right-sidebar-item-->
+    
+                <!--right sidebar items hover window-->
+                <div class="content__layout__live-events__items__hov-window">
+                  <!--text-->
+                  <div class="content__layout__live-events__items__hov-window__columns">
+                    <!--column of textboxes-->
+                    <div class="content__layout__live-events__items__hov-window__columns__column">
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          time
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          17:05:32
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+    
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          name
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          Evgeny
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+    
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          last name
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          Belyanov
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+                    </div>
+                    <!--column of textboxes-->
+    
+                    <!--column of textboxes-->
+                    <div class="content__layout__live-events__items__hov-window__columns__column">
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          list
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          Interpol Search
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+    
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          source
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          Parking_cam_1
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+    
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          similarity
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          98 %
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+                    </div>
+                    <!--column of textboxes-->
+                  </div>
+                  <!--text-->
+                  <button class="content__layout__live-events__items__hov-window__button">
+                    Open event
+                  </button>
+                </div>
+                <!--right sidebar items hover window-->
+              </div>
+              <!--right-sidebar-item container of 2-->
+            </div>
+            <!--live-event-->
+            <!--live-event-->
+            <div class="content__layout__live-events__items">
+              <!--right-sidebar-item-container of 2-->
+              <div class="content__layout__live-events__item-container">
+                <!--right-sidebar-item-->
+                <div class="content__layout__live-events__items__item">
+                  <div class="content__layout__live-events__items__item__pic">
+                    <img src="./assets/images/layout/live-events/live-events__person.jpg" alt="">
+                  </div>
+                  <p class="content__layout__live-events__items__item__title">
+                    TIME
+                  </p>
+                  <p class="content__layout__live-events__items__item__content">
+                    17:05:32
+                  </p>
+                </div>
+                <!--right-sidebar-item-->
+    
+                <!--right-sidebar-item-->
+                <div class="content__layout__live-events__items__item">
+                  <div class="content__layout__live-events__items__item__pic">
+                    <img src="./assets/images/layout/live-events/live-events__person.jpg" alt="">
+                  </div>
+                  <p class="content__layout__live-events__items__item__title">
+                    TIME
+                  </p>
+                  <p class="content__layout__live-events__items__item__content">
+                    17:05:32
+                  </p>
+                </div>
+                <!--right-sidebar-item-->
+    
+                <!--right sidebar items hover window-->
+                <div class="content__layout__live-events__items__hov-window">
+                  <!--text-->
+                  <div class="content__layout__live-events__items__hov-window__columns">
+                    <!--column of textboxes-->
+                    <div class="content__layout__live-events__items__hov-window__columns__column">
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          time
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          17:05:32
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+    
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          name
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          Evgeny
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+    
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          last name
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          Belyanov
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+                    </div>
+                    <!--column of textboxes-->
+    
+                    <!--column of textboxes-->
+                    <div class="content__layout__live-events__items__hov-window__columns__column">
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          list
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          Interpol Search
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+    
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          source
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          Parking_cam_1
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+    
+                      <!--text-box for title and text-->
+                      <div class="content__layout__live-events__items__hov-window__columns__column__textbox">
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__title">
+                          similarity
+                        </p>
+                        <p class="content__layout__live-events__items__hov-window__columns__column__textbox__text">
+                          98 %
+                        </p>
+                      </div>
+                      <!--text-box for title and text-->
+                    </div>
+                    <!--column of textboxes-->
+                  </div>
+                  <!--text-->
+                  <button class="content__layout__live-events__items__hov-window__button">
+                    Open event
+                  </button>
+                </div>
+                <!--right sidebar items hover window-->
+              </div>
+              <!--right-sidebar-item container of 2-->
+            </div>
+            <!--live-event-->
+          </div>
+          <!--live events container-->
+        </div>
+        <!--close btn-->
+        <button class="showevent-container__close-btn" id="showAllEvents-close-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M34.0915 30.2736C35.0204 31.2025 35.0204 32.7085 34.0915 33.6374V33.6374C33.1627 34.5663 31.6566 34.5663 30.7278 33.6374L13.909 16.8186C12.9801 15.8898 12.9801 14.3837 13.909 13.4548V13.4548C14.8379 12.526 16.3439 12.526 17.2728 13.4548L34.0915 30.2736Z" fill="#007BFF"></path>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M30.7277 13.4548C31.6566 12.526 33.1627 12.526 34.0915 13.4548V13.4548C35.0204 14.3837 35.0204 15.8898 34.0915 16.8186L17.2728 33.6374C16.3439 34.5663 14.8379 34.5663 13.909 33.6374V33.6374C12.9801 32.7085 12.9801 31.2025 13.909 30.2736L30.7277 13.4548Z" fill="#007BFF"></path>
+          </svg>        
+        </button>
+        <!--close btn-->
+      </div>
+      <!--show all live events content-center-window-->
+    </div>
+    <!--show all live events window on whole screen-->
+  </body>
+</html>
